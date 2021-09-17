@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=Staatliches&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Hind Vadodara';
+	box-sizing: border-box;
+}
+
+@media (min-width: 200px){
+	body{
+		width: 100%;
+		height: 100vh;
+	}
+	header{
+		background: #171413;
+		height: 115vh;
+		background-image: url('../img/5437842 1.png');
+		object-fit: cover;
+	}
+	.divTituloProyecto{
+		height: 46%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divTituloProyecto img{
+		width: 200px;
+		height: 200px;
+		filter: drop-shadow(0 2px 7px rgba(0, 0, 0, 0.6));
+	}
+	.divMenus{
+		height: 41%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.divItem{
+		height: 13%;
+		background:#484848;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 250px;
+		border-radius: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.divItem a{
+		text-decoration: none;
+		font-size: 1.5em;
+		color: #fff;
+		font-weight: bold;
+		letter-spacing: 0.5px;
+	}
+	.divSeparacionLogo{
+		background:#484848;
+		height: 15%;
+		text-align: center;
+	}
+	.divCirculoImagen{
+		height: 100%;
+	}
+	.divCirculoImagen img{
+		height: 100%;
+		padding: 2%;
+	}
+	.sectionInformacionSendword{
+		padding: 5% 5% 0% 5%;
+		height: 100vh;
+	}
+	.divTituloInformacion{
+		padding: 2% 0%;
+	}
+	.palabraImagen{
+		color: #FE5BA0;
+	}
+	.palabraTexto{
+		color: #009EF6;
+	}
+	.divParrafoInformacion{
+		height: 50%;
+		padding: 2%;
+	}
+	.divParrafoInformacion p{
+		font-size: 1.6em;
+		color: #000;
+		line-height: 36px;
+		text-align: justify;
+	}
+	.divImagen{
+		height: 50%;
+	}
+	.divImagen img{
+		width: 100%;
+	}
+	.divTituloInstructivo{
+		text-align: center;
+	}
+	.parrafoInstructivo{
+		margin-left: 10px;
+		line-height: 23px;
+	}
+	.parrafoInstructivo p{
+		font-size: 1.5em;
+	}
+	.divContenidoInstructivo{
+		padding: 5%;
+	}
+	.divInstructivo{
+		align-items: center;
+		display: flex;
+	}
+	.divInstructivo h1{
+		background:#484848;
+		padding: 3px 13px;
+		border-radius: 50%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		color:  #fff;
+		font-size: 1.7em;
+	}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~ESTILOS DEL SECTOR DE OPERACION CON IMAGEN~~~~~~~~~~~~~~~~~*/
+.contenedorOperacionImagen{
+	width: 100%;
+	display: flex;
+	padding: 5%;
+	justify-content: space-between;
+}
+.sectionImportar{
+	border-right: 1px solid gray;
+}
+.sectionImportar,.sectionFotografiar{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	width: 50%;
+}
+.contenedorBotonVisualizar{
+	margin-top: 15px;
+}
+#botonVisualizarImgImportada,#botonVisualizarImgFotografiada{
+	height: 30px;
+	width: 90px;
+	cursor: pointer;
+}
+.visualizacionImagen, .visualizacionCamara{
+	width: 100%;
+	height: 600px;
+	padding: 0% 5%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.divImagenVisualizada{
+	width: 100%;
+	height: 80%;
+	margin-bottom: 10px;
+}
+.divImagenVisualizada img{
+	width: 100%;
+	height: 100%;
+}
+.articleResultado{
+	width: 100%;
+	padding: 0% 5%;
+}
+.divResultadoTexto{
+	background: #b5b5b5;
+	padding: 2%;	
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~ESTILOS DEL SECTOR DESARROLLADORES~~~~~~~~~~~~~~~~~~~~~~~~~*/
+	.sectionDesarrolladores{
+		height: 100vh;
+		padding: 5% 5%;
+	}
+	.divGrupoDesarrollador{
+		margin-top: 2.5%;
+		margin-bottom: 2.5%;
+		height: 95%;
+	}
+	.divDesarrollador{
+		height: 33%;
+		display: flex;
+		align-items: center;
+		cursor: pointer;
+	}
+	.divDesarrollador:hover{
+		background: #282828;
+	}
+	.divImagenDesarrollador{
+		display: flex;
+		align-items: center;
+		height: 90%;
+	}
+	.divImagenDesarrollador img{
+		height: 80%; 
+		filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.6));
+
+	}
+	.divNombreDesarrollador{
+		display: flex;
+		flex-direction: column;
+		margin-left: 10px;
+	}
+	.divNombreDesarrollador p{
+		line-height: 23px;
+		padding: 0px 5px;
+		font-size: 1.35em;
+		font-family: 'Hind Vadodara';
+		color: #897456;
+		letter-spacing: 0.5px;
+	}
+	.divNombreDesarrollador p:nth-child(1){
+		font-size: 1.35em;
+	}
+	.divNombreDesarrollador p:nth-child(2), .divNombreDesarrollador p:nth-child(3), .divNombreDesarrollador p:nth-child(4){
+		font-size: 1.1em;
+	}
+	.divInformacionDesarrollador{
+		height: 40%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		place-items: center;
+		background: #282828;
+		padding: 0% 3%;
+		font-family: 'Hind Vadodara';
+		text-align: justify;
+	}
+	.divInformacionDesarrollador h1{
+		letter-spacing: 1px;
+		font-size: 1.3em;
+	}
+}
+
+@media (min-width: 900px) {
+	header{
+		height: 30vh;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.divTituloProyecto{
+		width: 20%;
+		height: 80%;
+	}
+	.divTituloProyecto img{
+		width: 100px;
+		height: 100px;
+	}
+	.divMenus{
+		width: 80%;
+		height: 80%;
+		flex-direction: row;
+		padding-right: 5%;
+	}
+	.divItem{
+		height: 23%;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		width: 25%;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.divItem a{
+		font-size: 1.2em;
+		letter-spacing: 0.9px;
+	}
+	.divSeparacionLogo{
+		height: 20%;
+		width: 100%;
+	}
+	.divCirculoImagen{
+		opacity: 0;
+	}
+	.sectionInformacionSendword{
+		height: 70vh;
+		display: flex;
+	}
+	.divTituloInformacion{
+		padding: 2% 0%;
+		height: 100%;
+	}
+	.divTituloInformacion p{
+		font-size: 2.2em;
+		line-height: 37px;
+		text-align: center;
+		color: #000;
+	}
+	.palabraImagen{
+		color: #FE5BA0;
+	}
+	.palabraTexto{
+		color: #009EF6;
+	}
+	.divParrafoInformacion{
+		height: 32%;
+		padding: 2%;
+	}
+	.divParrafoInformacion p{
+		font-size: 1.6em;
+		color: #000;
+		line-height: 36px;
+		text-align: justify;
+	}
+	.divImagen{
+		height: 50%;
+	}
+	.divImagen img{
+		width: 100%;
+	}
+	.articleOperacionImagen{
+		display: flex;
+	}
+}
